@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
     <background android:drawable="@drawable/ic_launcher_background" />
-    <!-- Glossy black glyph with soft shadow, rendered as a raster in mipmap-*dpi. -->
     <foreground android:drawable="@mipmap/ic_launcher_foreground_depth" />
-    <!-- Themed icon (Android 13+): flat vector silhouette; the system tints it by alpha only. -->
     <monochrome android:drawable="@drawable/ic_launcher_foreground" />
 </adaptive-icon>
